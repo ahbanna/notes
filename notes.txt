@@ -1,0 +1,29 @@
+Tailwind
+========
+Terminal
+---------
+> npm install -D tailwindcss postcss autoprefixer
+> npx tailwindcss init -p
+
+Tailwind.config.js
+------------------
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+
+index.css
+----------
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+Daisyui
+========
+Terminal
+--------
+npm i daisyui
+
+tailwind.config.js
+------------------
+plugins: [require("daisyui")],
